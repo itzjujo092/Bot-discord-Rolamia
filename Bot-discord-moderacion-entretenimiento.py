@@ -16,7 +16,7 @@ intents.presences = True
 intents.typing = True  
 intents.message_content = True
 
-TOKEN = "Nzc3OTQzNzcxNjU1ODMxNTYy.X7KymA.n_U3Op-PckGVrTF9m_rqetisJNo"
+TOKEN = "{YOUR TOKEN HERE}"
 bot = commands.Bot(command_prefix = "°", intents=intents, help_command=None)
 
 @bot.event
@@ -86,7 +86,7 @@ async def botsoporte(ctx):
   embed.add_field(name="topggpagina", value="Aqui esta la pagina oficial del Bot en Top gg")
   embed.add_field(name="servers", value="Aqui puedes mirar en cuantos servers esta el bot! ")
   embed.add_field(name="ping", value="Mira el ping del bot en este apartado")
-  embed.set_thumbnail(url="https://images-ext-2.discordapp.net/external/tiIi9CfcMG9FkrwuQ1HQ7iZWTG3vauhWDqzr-VDiIzM/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/777943771655831562/5c44863ceb2ad0c24f6c653274da7c67.webp?width=475&height=475")
+  embed.set_thumbnail(url="{A-IMAGE-URL}")
   await ctx.send(content=None, embed=embed)
 
 @bot.command()	
